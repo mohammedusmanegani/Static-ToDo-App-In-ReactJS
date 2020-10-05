@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './vendor/bootstrap-5.0.0-alpha1-dist/css/bootstrap.min.css';
 import './vendor/fontawesome-pro-icons/css/all.min.css';
