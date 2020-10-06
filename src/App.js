@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './vendor/bootstrap-5.0.0-alpha1-dist/css/bootstrap.min.css';
 import './vendor/fontawesome-pro-icons/css/all.min.css';
@@ -51,6 +50,7 @@ class App extends React.Component {
   }
   setUpdate(text, key) {
     const items = this.state.items;
+    // eslint-disable-next-line
     items.map(item => {
       if (item.key === key) {
         item.text = text;
